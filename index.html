@@ -17,12 +17,9 @@
         center: new google.maps.LatLng( 35.297389, 139.578381 ),
         mapTypeId: google.maps.MapTypeId.ROADMAP,
         zoom: 16
-  };
-
-  var canvas = document.getElementById( 'canvas' );
-
-  // Mapクラスを作成し地図を表示する
-  new google.maps.Map( canvas, options );
+     };
+     var canvas = document.getElementById( 'map' );
+     new google.maps.Map( canvas, options );
     </script>
     
     <script async defer
